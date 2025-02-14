@@ -1,0 +1,13 @@
+{
+    "name": "your-project-name",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run build --prefix client",  
+      "start": "node server.js",               
+      "dev": "concurrently \"npm run start --prefix client\" \"npm run start\"", 
+      "vercel-build": "npm run build --prefix client" 
+    },
+    "dependencies": {
+      "concurrently": "^8.2.1" 
+    }
+  }
