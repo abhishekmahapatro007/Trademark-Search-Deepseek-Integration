@@ -1,7 +1,6 @@
 ## UK Trademark Search
 
-This project is built using [Bubble.io]
-(https://bubble.io/). Below is the 
+This project is built using [Bubble.io](https://bubble.io/). Below is the 
 original link to the live version of the 
 application:
 
